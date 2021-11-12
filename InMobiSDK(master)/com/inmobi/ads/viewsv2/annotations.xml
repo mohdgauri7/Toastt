@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.viewsv2.GifView mContentMode">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_UNSPECIFIED, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_FILL, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FIT, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FILL}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewsv2.GifView void setContentMode(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_UNSPECIFIED, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_FILL, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FIT, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FILL}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewsv2.NativeViewFactory void setTextStyle(android.widget.TextView, java.lang.String[]) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_NONE, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_BOLD, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_ITALICISED, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_STRIKE_THRU, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_UNDERLINE}" />
+    </annotation>
+  </item>
+</root>
+

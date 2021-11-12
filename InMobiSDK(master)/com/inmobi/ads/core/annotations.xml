@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.core.Ad java.lang.String getMarkupType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_UNKNOWN, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_HTML, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_JSON, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_MEDITATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.Ad mAdType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.Ad markupType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_UNKNOWN, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_HTML, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_JSON, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_MEDITATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.Ad void init(org.json.JSONObject, java.lang.String, long, float) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdFactory void inflate(com.inmobi.ads.core.Ad, org.json.JSONObject, java.lang.String, com.inmobi.ads.utils.BidManager, long) 2">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdMarkupType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_UNKNOWN, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_HTML, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_JSON, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_MEDITATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement AdPlacement(long, long, java.lang.String, java.lang.String, java.lang.String, java.lang.String) 3">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement AdPlacement(long, long, java.lang.String, java.lang.String, java.lang.String, java.lang.String) 4">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.unification.sdk.IntegrationType.AerServ, com.inmobi.unification.sdk.IntegrationType.InMobi}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement AdPlacement(long, long, java.lang.String, java.lang.String, java.lang.String, java.lang.String) 5">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.PlacementType.AudienceBidding, com.inmobi.ads.core.PlacementType.NonAudienceBidding}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement java.lang.String getAdType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement java.lang.String getMonetizationContext()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement java.lang.String getPlacementType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.PlacementType.AudienceBidding, com.inmobi.ads.core.PlacementType.NonAudienceBidding}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement mAdType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement mIntegrationType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.unification.sdk.IntegrationType.AerServ, com.inmobi.unification.sdk.IntegrationType.InMobi}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement mMonetizationContext">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement mPlacementType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.PlacementType.AudienceBidding, com.inmobi.ads.core.PlacementType.NonAudienceBidding}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement void setMonetizationContext(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement.Builder Builder(java.lang.String, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement.Builder Builder(java.lang.String, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.unification.sdk.IntegrationType.AerServ, com.inmobi.unification.sdk.IntegrationType.InMobi}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement.Builder com.inmobi.ads.core.AdPlacement.Builder setM10Context(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement.Builder integrationType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.unification.sdk.IntegrationType.AerServ, com.inmobi.unification.sdk.IntegrationType.InMobi}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement.Builder mAdType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement.Builder mMonetizationContext">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdPlacement.Builder mPlacementType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.PlacementType.AudienceBidding, com.inmobi.ads.core.PlacementType.NonAudienceBidding}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdSet com.inmobi.ads.core.AdSet inflate(org.json.JSONObject, long, java.lang.String, java.lang.String, com.inmobi.ads.utils.BidManager) 2">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdSet mAdType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AdTypes">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AssetStore void fetchAssetsInBatch(com.inmobi.ads.core.AdAssetBatch, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AssetStore void fetchImageAssets(java.util.List&lt;java.lang.String&gt;, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AssetStore.PicassoInvocationHandler PicassoInvocationHandler(java.util.concurrent.CountDownLatch, java.lang.String, long, java.lang.String) 3">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.AssetStore.PicassoInvocationHandler assetAdType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.ClickManager.PingResultListener void onPingFailed(com.inmobi.ads.core.Click, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_UNAVAILABLE_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.UNKNOWN_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_IO_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.OUT_OF_MEMORY_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.INVALID_ENCRYPTED_RESPONSE_RECEIVED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_EXCEEDS_SPECIFIED_SIZE_LIMIT, com.inmobi.commons.core.network.NetworkError.ErrorCode.GZIP_DECOMPRESSION_FAILED, com.inmobi.commons.core.network.NetworkError.ErrorCode.BAD_REQUEST, com.inmobi.commons.core.network.NetworkError.ErrorCode.GDPR_COMPLIANCE_ENFORCED, com.inmobi.commons.core.network.NetworkError.ErrorCode.GENERIC_HTTP_2XX, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NO_CONTENT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_MODIFIED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SEE_OTHER, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_FOUND, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_MOVED_TEMP, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_INTERNAL_SERVER_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_IMPLEMENTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_BAD_GATEWAY, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_AVAILABLE, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_GATEWAY_TIMEOUT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_VERSION_NOT_SUPPORTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_PARSING_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.PlacementType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.PlacementType.AudienceBidding, com.inmobi.ads.core.PlacementType.NonAudienceBidding}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.core.PubSettings placementType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.PlacementType.AudienceBidding, com.inmobi.ads.core.PlacementType.NonAudienceBidding}" />
+    </annotation>
+  </item>
+</root>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.controllers.AdUnit java.lang.String getAdType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.controllers.AdUnit java.lang.String getMarkupType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_UNKNOWN, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_HTML, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_JSON, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_MEDITATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.controllers.AdUnit void setMonetizationContext(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.controllers.AdUnit.AdCreativeType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.controllers.AdUnit.AdCreativeType.AD_CREATIVE_TYPE_UNSUPPORTED_OR_UNKNOWN, com.inmobi.ads.controllers.AdUnit.AdCreativeType.AD_CREATIVE_TYPE_DISPLAY, com.inmobi.ads.controllers.AdUnit.AdCreativeType.AD_CREATIVE_TYPE_VIDEO}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.controllers.AdUnit.LandingScheme">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.controllers.AdUnit.LandingScheme.DEFAULT, com.inmobi.ads.controllers.AdUnit.LandingScheme.EXTERNAL_NATIVE, com.inmobi.ads.controllers.AdUnit.LandingScheme.INTERNAL_NATIVE, com.inmobi.ads.controllers.AdUnit.LandingScheme.INTERNAL_CUSTOM}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.controllers.BannerAdUnit java.lang.String getAdType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.controllers.InterstitialAdUnit java.lang.String getAdType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.controllers.InterstitialAdUnit void setMonetizationContext(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.controllers.NativeAdUnit java.lang.String getAdType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+</root>
+

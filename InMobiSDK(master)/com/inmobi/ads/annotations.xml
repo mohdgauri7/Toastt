@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.InMobiAdRequest java.lang.String fromContext(android.content.Context)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.InMobiAdRequest java.lang.String valueOf(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.InMobiAdRequest.MonetizationContext">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_ACTIVITY, com.inmobi.ads.InMobiAdRequest.MonetizationContext.MONETIZATION_CONTEXT_OTHER}" />
+    </annotation>
+  </item>
+</root>
+

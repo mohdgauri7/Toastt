@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.protocols.AdNetworkRequest java.lang.String getAdType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.protocols.AdNetworkRequest void setAdType(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+</root>
+

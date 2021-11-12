@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.signals.cellular.CellularInfoUtil java.util.Map&lt;java.lang.String,java.lang.String&gt; getCellOperatorInfoMap(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.unification.sdk.IntegrationType.AerServ, com.inmobi.unification.sdk.IntegrationType.InMobi}" />
+    </annotation>
+  </item>
+</root>
+

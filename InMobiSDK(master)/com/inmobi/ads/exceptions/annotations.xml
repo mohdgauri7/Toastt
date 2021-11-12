@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.exceptions.VastException VastException(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.ads.vast.VastErrorCode.NO_ERROR, com.inmobi.ads.vast.VastErrorCode.XML_PARSING_ERROR, com.inmobi.ads.vast.VastErrorCode.SCHEMA_VALIDATION_ERROR, com.inmobi.ads.vast.VastErrorCode.UNSUPPORTED_AD_TYPE, com.inmobi.ads.vast.VastErrorCode.GENERAL_WRAPPER_ERROR, com.inmobi.ads.vast.VastErrorCode.VAST_URI_NETWORK_ERROR, com.inmobi.ads.vast.VastErrorCode.WRAPPER_MAX_LIMIT_EXCEEDED, com.inmobi.ads.vast.VastErrorCode.WRAPPER_NO_AD, com.inmobi.ads.vast.VastErrorCode.GENERAL_LINEAR_ERROR, com.inmobi.ads.vast.VastErrorCode.LINEAR_MEDIA_FILE_NOT_FOUND, com.inmobi.ads.vast.VastErrorCode.MEDIA_FILE_TIMEOUT, com.inmobi.ads.vast.VastErrorCode.NO_SUPPORTED_MEDIA, com.inmobi.ads.vast.VastErrorCode.MEDIA_PLAY_ERROR, com.inmobi.ads.vast.VastErrorCode.GENERAL_COMPANION_ERROR, com.inmobi.ads.vast.VastErrorCode.NO_BEST_FIT_COMPANION, com.inmobi.ads.vast.VastErrorCode.COMPANION_RESOURCE_NOT_ACCESSIBLE, com.inmobi.ads.vast.VastErrorCode.MISSING_SUPPORTED_TYPE_COMPANION, com.inmobi.ads.vast.VastErrorCode.UNDEFINED_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.exceptions.VastException mVastErrorCode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.ads.vast.VastErrorCode.NO_ERROR, com.inmobi.ads.vast.VastErrorCode.XML_PARSING_ERROR, com.inmobi.ads.vast.VastErrorCode.SCHEMA_VALIDATION_ERROR, com.inmobi.ads.vast.VastErrorCode.UNSUPPORTED_AD_TYPE, com.inmobi.ads.vast.VastErrorCode.GENERAL_WRAPPER_ERROR, com.inmobi.ads.vast.VastErrorCode.VAST_URI_NETWORK_ERROR, com.inmobi.ads.vast.VastErrorCode.WRAPPER_MAX_LIMIT_EXCEEDED, com.inmobi.ads.vast.VastErrorCode.WRAPPER_NO_AD, com.inmobi.ads.vast.VastErrorCode.GENERAL_LINEAR_ERROR, com.inmobi.ads.vast.VastErrorCode.LINEAR_MEDIA_FILE_NOT_FOUND, com.inmobi.ads.vast.VastErrorCode.MEDIA_FILE_TIMEOUT, com.inmobi.ads.vast.VastErrorCode.NO_SUPPORTED_MEDIA, com.inmobi.ads.vast.VastErrorCode.MEDIA_PLAY_ERROR, com.inmobi.ads.vast.VastErrorCode.GENERAL_COMPANION_ERROR, com.inmobi.ads.vast.VastErrorCode.NO_BEST_FIT_COMPANION, com.inmobi.ads.vast.VastErrorCode.COMPANION_RESOURCE_NOT_ACCESSIBLE, com.inmobi.ads.vast.VastErrorCode.MISSING_SUPPORTED_TYPE_COMPANION, com.inmobi.ads.vast.VastErrorCode.UNDEFINED_ERROR}" />
+    </annotation>
+  </item>
+</root>
+

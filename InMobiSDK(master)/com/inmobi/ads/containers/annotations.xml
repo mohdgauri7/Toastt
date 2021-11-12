@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.containers.AdContainer java.lang.String getMarkupType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_UNKNOWN, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_HTML, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_JSON, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_MEDITATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.NativeAdContainer java.lang.String getMarkupType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_UNKNOWN, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_HTML, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_JSON, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_MEDITATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView java.lang.String getMarkupType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_UNKNOWN, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_HTML, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_INM_JSON, com.inmobi.ads.core.AdMarkupType.AD_MARKUP_TYPE_MEDITATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView java.lang.String getState()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.containers.RenderView.RenderViewState.LOADING, com.inmobi.ads.containers.RenderView.RenderViewState.DEFAULT, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDING, com.inmobi.ads.containers.RenderView.RenderViewState.HIDDEN, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZING}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView java.lang.String getViewState()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.containers.RenderView.RenderViewState.LOADING, com.inmobi.ads.containers.RenderView.RenderViewState.DEFAULT, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDING, com.inmobi.ads.containers.RenderView.RenderViewState.HIDDEN, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZING}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView mLandingScheme">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.controllers.AdUnit.LandingScheme.DEFAULT, com.inmobi.ads.controllers.AdUnit.LandingScheme.EXTERNAL_NATIVE, com.inmobi.ads.controllers.AdUnit.LandingScheme.INTERNAL_NATIVE, com.inmobi.ads.controllers.AdUnit.LandingScheme.INTERNAL_CUSTOM}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView mViewState">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.containers.RenderView.RenderViewState.LOADING, com.inmobi.ads.containers.RenderView.RenderViewState.DEFAULT, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDING, com.inmobi.ads.containers.RenderView.RenderViewState.HIDDEN, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZING}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView void sendTelemetryForAutoRedirectFraud(java.lang.String, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.core.AdTypes.BANNER, com.inmobi.ads.core.AdTypes.INT, com.inmobi.ads.core.AdTypes.NATIVE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView void setAndUpdateViewState(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.containers.RenderView.RenderViewState.LOADING, com.inmobi.ads.containers.RenderView.RenderViewState.DEFAULT, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDING, com.inmobi.ads.containers.RenderView.RenderViewState.HIDDEN, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZING}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView void setLandingScheme(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.controllers.AdUnit.LandingScheme.DEFAULT, com.inmobi.ads.controllers.AdUnit.LandingScheme.EXTERNAL_NATIVE, com.inmobi.ads.controllers.AdUnit.LandingScheme.INTERNAL_NATIVE, com.inmobi.ads.controllers.AdUnit.LandingScheme.INTERNAL_CUSTOM}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.containers.RenderView.RenderViewState">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.containers.RenderView.RenderViewState.LOADING, com.inmobi.ads.containers.RenderView.RenderViewState.DEFAULT, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDED, com.inmobi.ads.containers.RenderView.RenderViewState.EXPANDING, com.inmobi.ads.containers.RenderView.RenderViewState.HIDDEN, com.inmobi.ads.containers.RenderView.RenderViewState.RESIZING}" />
+    </annotation>
+  </item>
+</root>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.unification.sdk.InitializationStatus">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.unification.sdk.InitializationStatus.SUCCESS, com.inmobi.unification.sdk.InitializationStatus.INVALID_ACCOUNT_ID, com.inmobi.unification.sdk.InitializationStatus.INVALID_SITE_ID, com.inmobi.unification.sdk.InitializationStatus.UNKNOWN_ERROR, com.inmobi.unification.sdk.InitializationStatus.MISSING_REQUIRED_DEPENDENCIES}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.unification.sdk.IntegrationType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.unification.sdk.IntegrationType.AerServ, com.inmobi.unification.sdk.IntegrationType.InMobi}" />
+    </annotation>
+  </item>
+</root>
+

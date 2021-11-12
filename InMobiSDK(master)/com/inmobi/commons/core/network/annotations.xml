@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.commons.core.network.NetworkConnection void postData(java.lang.String, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_X_WWW_FORM_URL_ENCODED, com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkError NetworkError(int, java.lang.String) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_UNAVAILABLE_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.UNKNOWN_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_IO_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.OUT_OF_MEMORY_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.INVALID_ENCRYPTED_RESPONSE_RECEIVED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_EXCEEDS_SPECIFIED_SIZE_LIMIT, com.inmobi.commons.core.network.NetworkError.ErrorCode.GZIP_DECOMPRESSION_FAILED, com.inmobi.commons.core.network.NetworkError.ErrorCode.BAD_REQUEST, com.inmobi.commons.core.network.NetworkError.ErrorCode.GDPR_COMPLIANCE_ENFORCED, com.inmobi.commons.core.network.NetworkError.ErrorCode.GENERIC_HTTP_2XX, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NO_CONTENT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_MODIFIED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SEE_OTHER, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_FOUND, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_MOVED_TEMP, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_INTERNAL_SERVER_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_IMPLEMENTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_BAD_GATEWAY, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_AVAILABLE, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_GATEWAY_TIMEOUT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_VERSION_NOT_SUPPORTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_PARSING_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkError int fromValue(int)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_UNAVAILABLE_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.UNKNOWN_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_IO_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.OUT_OF_MEMORY_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.INVALID_ENCRYPTED_RESPONSE_RECEIVED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_EXCEEDS_SPECIFIED_SIZE_LIMIT, com.inmobi.commons.core.network.NetworkError.ErrorCode.GZIP_DECOMPRESSION_FAILED, com.inmobi.commons.core.network.NetworkError.ErrorCode.BAD_REQUEST, com.inmobi.commons.core.network.NetworkError.ErrorCode.GDPR_COMPLIANCE_ENFORCED, com.inmobi.commons.core.network.NetworkError.ErrorCode.GENERIC_HTTP_2XX, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NO_CONTENT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_MODIFIED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SEE_OTHER, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_FOUND, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_MOVED_TEMP, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_INTERNAL_SERVER_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_IMPLEMENTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_BAD_GATEWAY, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_AVAILABLE, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_GATEWAY_TIMEOUT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_VERSION_NOT_SUPPORTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_PARSING_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkError int getErrorCode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_UNAVAILABLE_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.UNKNOWN_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_IO_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.OUT_OF_MEMORY_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.INVALID_ENCRYPTED_RESPONSE_RECEIVED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_EXCEEDS_SPECIFIED_SIZE_LIMIT, com.inmobi.commons.core.network.NetworkError.ErrorCode.GZIP_DECOMPRESSION_FAILED, com.inmobi.commons.core.network.NetworkError.ErrorCode.BAD_REQUEST, com.inmobi.commons.core.network.NetworkError.ErrorCode.GDPR_COMPLIANCE_ENFORCED, com.inmobi.commons.core.network.NetworkError.ErrorCode.GENERIC_HTTP_2XX, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NO_CONTENT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_MODIFIED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SEE_OTHER, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_FOUND, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_MOVED_TEMP, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_INTERNAL_SERVER_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_IMPLEMENTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_BAD_GATEWAY, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_AVAILABLE, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_GATEWAY_TIMEOUT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_VERSION_NOT_SUPPORTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_PARSING_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkError mErrorCode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_UNAVAILABLE_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.UNKNOWN_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_IO_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.OUT_OF_MEMORY_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.INVALID_ENCRYPTED_RESPONSE_RECEIVED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_EXCEEDS_SPECIFIED_SIZE_LIMIT, com.inmobi.commons.core.network.NetworkError.ErrorCode.GZIP_DECOMPRESSION_FAILED, com.inmobi.commons.core.network.NetworkError.ErrorCode.BAD_REQUEST, com.inmobi.commons.core.network.NetworkError.ErrorCode.GDPR_COMPLIANCE_ENFORCED, com.inmobi.commons.core.network.NetworkError.ErrorCode.GENERIC_HTTP_2XX, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NO_CONTENT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_MODIFIED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SEE_OTHER, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_FOUND, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_MOVED_TEMP, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_INTERNAL_SERVER_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_IMPLEMENTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_BAD_GATEWAY, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_AVAILABLE, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_GATEWAY_TIMEOUT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_VERSION_NOT_SUPPORTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_PARSING_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkError void setErrorCode(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_UNAVAILABLE_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.UNKNOWN_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_IO_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.OUT_OF_MEMORY_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.INVALID_ENCRYPTED_RESPONSE_RECEIVED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_EXCEEDS_SPECIFIED_SIZE_LIMIT, com.inmobi.commons.core.network.NetworkError.ErrorCode.GZIP_DECOMPRESSION_FAILED, com.inmobi.commons.core.network.NetworkError.ErrorCode.BAD_REQUEST, com.inmobi.commons.core.network.NetworkError.ErrorCode.GDPR_COMPLIANCE_ENFORCED, com.inmobi.commons.core.network.NetworkError.ErrorCode.GENERIC_HTTP_2XX, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NO_CONTENT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_MODIFIED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SEE_OTHER, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_FOUND, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_MOVED_TEMP, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_INTERNAL_SERVER_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_IMPLEMENTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_BAD_GATEWAY, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_AVAILABLE, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_GATEWAY_TIMEOUT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_VERSION_NOT_SUPPORTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_PARSING_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkError.ErrorCode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_UNAVAILABLE_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.UNKNOWN_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_IO_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.OUT_OF_MEMORY_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.INVALID_ENCRYPTED_RESPONSE_RECEIVED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_EXCEEDS_SPECIFIED_SIZE_LIMIT, com.inmobi.commons.core.network.NetworkError.ErrorCode.GZIP_DECOMPRESSION_FAILED, com.inmobi.commons.core.network.NetworkError.ErrorCode.BAD_REQUEST, com.inmobi.commons.core.network.NetworkError.ErrorCode.GDPR_COMPLIANCE_ENFORCED, com.inmobi.commons.core.network.NetworkError.ErrorCode.GENERIC_HTTP_2XX, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NO_CONTENT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_MODIFIED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SEE_OTHER, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_FOUND, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_MOVED_TEMP, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_INTERNAL_SERVER_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_IMPLEMENTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_BAD_GATEWAY, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_AVAILABLE, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_GATEWAY_TIMEOUT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_VERSION_NOT_SUPPORTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_PARSING_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest NetworkRequest(java.lang.String, java.lang.String, boolean, boolean, com.inmobi.commons.utils.uid.UidMap) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestType.GET, com.inmobi.commons.core.network.NetworkRequest.RequestType.POST}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest NetworkRequest(java.lang.String, java.lang.String, boolean, com.inmobi.commons.utils.uid.UidMap) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestType.GET, com.inmobi.commons.core.network.NetworkRequest.RequestType.POST}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest NetworkRequest(java.lang.String, java.lang.String, boolean, com.inmobi.commons.utils.uid.UidMap, boolean, boolean, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestType.GET, com.inmobi.commons.core.network.NetworkRequest.RequestType.POST}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest NetworkRequest(java.lang.String, java.lang.String, boolean, com.inmobi.commons.utils.uid.UidMap, boolean, boolean, java.lang.String) 6">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_X_WWW_FORM_URL_ENCODED, com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest NetworkRequest(java.lang.String, java.lang.String, boolean, com.inmobi.commons.utils.uid.UidMap, boolean, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestType.GET, com.inmobi.commons.core.network.NetworkRequest.RequestType.POST}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest NetworkRequest(java.lang.String, java.lang.String, boolean, com.inmobi.commons.utils.uid.UidMap, boolean, java.lang.String) 5">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_X_WWW_FORM_URL_ENCODED, com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest java.lang.String getRequestContentType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_X_WWW_FORM_URL_ENCODED, com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest java.lang.String getRequestType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestType.GET, com.inmobi.commons.core.network.NetworkRequest.RequestType.POST}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest mRequestContentType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_X_WWW_FORM_URL_ENCODED, com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest mRequestType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestType.GET, com.inmobi.commons.core.network.NetworkRequest.RequestType.POST}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest.RequestContentType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_X_WWW_FORM_URL_ENCODED, com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_JSON}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.NetworkRequest.RequestType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestType.GET, com.inmobi.commons.core.network.NetworkRequest.RequestType.POST}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.RetryNetworkRequest RetryNetworkRequest(java.lang.String, java.lang.String, com.inmobi.commons.utils.uid.UidMap, java.lang.String, int, int, java.util.Map&lt;java.lang.String,java.lang.String&gt;, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestType.GET, com.inmobi.commons.core.network.NetworkRequest.RequestType.POST}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.network.RetryNetworkRequest RetryNetworkRequest(java.lang.String, java.lang.String, com.inmobi.commons.utils.uid.UidMap, java.lang.String, int, int, java.util.Map&lt;java.lang.String,java.lang.String&gt;, java.lang.String) 7">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_X_WWW_FORM_URL_ENCODED, com.inmobi.commons.core.network.NetworkRequest.RequestContentType.APPLICATION_JSON}" />
+    </annotation>
+  </item>
+</root>
+

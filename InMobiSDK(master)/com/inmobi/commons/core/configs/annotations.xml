@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.commons.core.configs.AdConfig java.lang.String getType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.Config com.inmobi.commons.core.configs.Config fromJSON(java.lang.String, org.json.JSONObject, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.Config com.inmobi.commons.core.configs.Config newInstance(java.lang.String, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.Config java.lang.String getType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigComponent com.inmobi.commons.core.configs.Config getConfig(java.lang.String, java.lang.String, com.inmobi.commons.core.configs.ConfigComponent.ConfigUpdateListener) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigComponent void evaluateConfigFetch(java.lang.String, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigDao java.lang.String[] getWhereArgs(java.lang.String, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigNetworkResponse boolean is5xxErrors(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_UNAVAILABLE_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.UNKNOWN_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.NETWORK_IO_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.OUT_OF_MEMORY_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.INVALID_ENCRYPTED_RESPONSE_RECEIVED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_EXCEEDS_SPECIFIED_SIZE_LIMIT, com.inmobi.commons.core.network.NetworkError.ErrorCode.GZIP_DECOMPRESSION_FAILED, com.inmobi.commons.core.network.NetworkError.ErrorCode.BAD_REQUEST, com.inmobi.commons.core.network.NetworkError.ErrorCode.GDPR_COMPLIANCE_ENFORCED, com.inmobi.commons.core.network.NetworkError.ErrorCode.GENERIC_HTTP_2XX, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NO_CONTENT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_MODIFIED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SEE_OTHER, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_FOUND, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_MOVED_TEMP, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_INTERNAL_SERVER_ERROR, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_NOT_IMPLEMENTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_BAD_GATEWAY, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_SERVER_NOT_AVAILABLE, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_GATEWAY_TIMEOUT, com.inmobi.commons.core.network.NetworkError.ErrorCode.HTTP_VERSION_NOT_SUPPORTED, com.inmobi.commons.core.network.NetworkError.ErrorCode.RESPONSE_PARSING_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse int fromValue(int)">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.SUCCESS, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.NOT_MODIFIED, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.PRODUCT_NOT_FOUND, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.INTERNAL_ERROR, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse int getConfigResponseStatus()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.SUCCESS, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.NOT_MODIFIED, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.PRODUCT_NOT_FOUND, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.INTERNAL_ERROR, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse mConfigResponseStatus">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.SUCCESS, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.NOT_MODIFIED, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.PRODUCT_NOT_FOUND, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.INTERNAL_ERROR, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.SUCCESS, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.NOT_MODIFIED, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.PRODUCT_NOT_FOUND, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.INTERNAL_ERROR, com.inmobi.commons.core.configs.ConfigNetworkResponse.ConfigResponse.ConfigResponseStatus.UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.ConfigTypes">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.CrashConfig java.lang.String getType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.PkConfig java.lang.String getType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.RootConfig java.lang.String getType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.SignalsConfig java.lang.String getType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.commons.core.configs.TelemetryConfig java.lang.String getType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.commons.core.configs.ConfigTypes.TYPE_AD, com.inmobi.commons.core.configs.ConfigTypes.TYPE_CRASH, com.inmobi.commons.core.configs.ConfigTypes.TYPE_PK, com.inmobi.commons.core.configs.ConfigTypes.TYPE_ROOT, com.inmobi.commons.core.configs.ConfigTypes.TYPE_SIGNALS, com.inmobi.commons.core.configs.ConfigTypes.TYPE_TELEMETRY}" />
+    </annotation>
+  </item>
+</root>
+

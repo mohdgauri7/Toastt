@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.viewability.omid.AdEventHandler AdEventHandler(com.iab.omid.library.inmobi.adsession.AdSession, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_VIDEO_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_VIDEO_AD}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl OmidAdSessionManagerImpl(java.lang.String, com.iab.omid.library.inmobi.adsession.ImpressionType, com.iab.omid.library.inmobi.adsession.AdSessionContext) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_VIDEO_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_VIDEO_AD}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl OmidAdSessionManagerImpl(java.lang.String, com.iab.omid.library.inmobi.adsession.ImpressionType, com.iab.omid.library.inmobi.adsession.AdSessionContext, boolean) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_VIDEO_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_VIDEO_AD}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl mAdSessionType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_VIDEO_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_VIDEO_AD}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_DISPLAY_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.HTML_VIDEO_AD, com.inmobi.ads.viewability.omid.OmidAdSessionManagerImpl.AdSessionType.NATIVE_VIDEO_AD}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewability.omid.OmidNativeTracker OmidNativeTracker(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 4">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewability.omid.OmidNativeTracker OmidNativeTracker(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_UNKNOWN_OR_UNSUPPORTED, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_WEBVIEW_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_HTML_SCRIPT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewability.omid.OmidNativeTracker OmidNativeTracker(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 5">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.viewability.omid.OmidTrackedHtmlAd com.inmobi.ads.viewability.omid.AdSessionManager getAdSessionManager(java.lang.String, com.inmobi.ads.containers.RenderView, boolean, java.lang.String, byte, java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.controllers.AdUnit.AdCreativeType.AD_CREATIVE_TYPE_UNSUPPORTED_OR_UNKNOWN, com.inmobi.ads.controllers.AdUnit.AdCreativeType.AD_CREATIVE_TYPE_DISPLAY, com.inmobi.ads.controllers.AdUnit.AdCreativeType.AD_CREATIVE_TYPE_VIDEO}" />
+    </annotation>
+  </item>
+</root>
+

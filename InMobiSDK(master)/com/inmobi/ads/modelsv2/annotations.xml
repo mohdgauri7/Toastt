@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset NativeAsset(java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeAssetStyle) 2">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset NativeAsset(java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeAssetStyle, java.util.List&lt;com.inmobi.ads.modelsv2.NativeTracker&gt;) 2">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset boolean containsTrackersOfType(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset int getAssetVisibility()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.VISIBLE, com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.INVISIBLE, com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.GONE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset java.lang.String getAssetType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset mAssetType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset mAssetVisibility">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.VISIBLE, com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.INVISIBLE, com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.GONE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset void copyTrackersOfType(java.util.List&lt;com.inmobi.ads.modelsv2.NativeTracker&gt;, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset void invokeTrackersOfType(java.lang.String, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset void setAssetVisibility(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.VISIBLE, com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.INVISIBLE, com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.GONE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset.AssetType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.VISIBLE, com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.INVISIBLE, com.inmobi.ads.modelsv2.NativeAsset.AssetVisibility.GONE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle NativeAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeTimer) 8">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle NativeAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeTimer) 9">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle NativeAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeTimer) 10">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle NativeAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeTimer) 8">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_UNSPECIFIED, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_FILL, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FIT, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FILL}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle NativeAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeTimer) 9">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle java.lang.String getBorderCornerStyle()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle java.lang.String getBorderStrokeStyle()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle java.lang.String getContentMode()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_UNSPECIFIED, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_FILL, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FIT, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FILL}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle mBorderCornerStyle">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle mBorderStrokeStyle">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle mContentMode">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_UNSPECIFIED, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_FILL, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FIT, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FILL}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_UNSPECIFIED, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_FILL, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FIT, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FILL}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeCtaAsset.NativeCtaAssetStyle NativeCtaAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String[], com.inmobi.ads.modelsv2.NativeTimer) 14">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_NONE, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_BOLD, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_ITALICISED, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_STRIKE_THRU, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_UNDERLINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeCtaAsset.NativeCtaAssetStyle NativeCtaAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String[], com.inmobi.ads.modelsv2.NativeTimer) 8">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeCtaAsset.NativeCtaAssetStyle NativeCtaAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String[], com.inmobi.ads.modelsv2.NativeTimer) 9">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel boolean isValidAssetStyle(org.json.JSONObject, java.lang.String) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel com.inmobi.ads.modelsv2.NativeAsset buildAsset(org.json.JSONObject, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeAssetStyle) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel com.inmobi.ads.modelsv2.NativeTracker getGeneralTrackerFromJson(int, java.lang.String, org.json.JSONObject) 1">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.lang.String fromAssetTypeString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.lang.String fromBorderCornerStyleString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.lang.String fromBorderStyleString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.lang.String fromContentModeString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_UNSPECIFIED, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_FILL, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FIT, com.inmobi.ads.modelsv2.NativeAssetStyle.ContentMode.CONTENT_MODE_ASPECT_FILL}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.lang.String fromDownloaderEventTypeString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.lang.String fromEventTypeString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.lang.String fromTextStyleString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_NONE, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_BOLD, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_ITALICISED, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_STRIKE_THRU, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_UNDERLINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.lang.String fromTrackerTypeString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_UNKNOWN_OR_UNSUPPORTED, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_WEBVIEW_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_HTML_SCRIPT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeDataModel java.util.List&lt;com.inmobi.ads.modelsv2.NativeAsset&gt; getAssetsOfType(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset NativeTextAsset(java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeAssetStyle, java.lang.String) 2">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CONTAINER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TEXT, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_CTA, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_IMAGE, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_ICON, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_RATING, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_VIDEO, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_TIMER, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_WEBVIEW, com.inmobi.ads.modelsv2.NativeAsset.AssetType.ASSET_TYPE_GIF}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle NativeTextAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeTimer) 8">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle NativeTextAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.inmobi.ads.modelsv2.NativeTimer) 9">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle NativeTextAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, byte, int, java.lang.String, java.lang.String[], com.inmobi.ads.modelsv2.NativeTimer) 16">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_NONE, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_BOLD, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_ITALICISED, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_STRIKE_THRU, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_UNDERLINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle NativeTextAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, byte, int, java.lang.String, java.lang.String[], com.inmobi.ads.modelsv2.NativeTimer) 8">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_NONE, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderStrokeStyle.BORDER_STROKE_STYLE_LINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle NativeTextAssetStyle(int, int, int, int, int, int, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, byte, int, java.lang.String, java.lang.String[], com.inmobi.ads.modelsv2.NativeTimer) 9">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_CURVED, com.inmobi.ads.modelsv2.NativeAssetStyle.BorderCornerStyle.BORDER_CORNER_STYLE_STRAIGHT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle java.lang.String[] getTextStyles()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_NONE, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_BOLD, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_ITALICISED, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_STRIKE_THRU, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_UNDERLINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle mTextStyles">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_NONE, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_BOLD, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_ITALICISED, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_STRIKE_THRU, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_UNDERLINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_NONE, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_BOLD, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_ITALICISED, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_STRIKE_THRU, com.inmobi.ads.modelsv2.NativeTextAsset.NativeTextAssetStyle.TextStyle.TEXT_STYLE_UNDERLINE}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker NativeTracker(java.lang.String, int, java.lang.String, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 2">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker NativeTracker(java.lang.String, java.lang.String, int, java.lang.String, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_UNKNOWN_OR_UNSUPPORTED, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_WEBVIEW_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_HTML_SCRIPT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker NativeTracker(java.lang.String, java.lang.String, int, java.lang.String, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 3">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker java.lang.String fromEventTypeString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker java.lang.String fromTrackerTypeString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_UNKNOWN_OR_UNSUPPORTED, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_WEBVIEW_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_HTML_SCRIPT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker java.lang.String getEventType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker java.lang.String getTrackerType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_UNKNOWN_OR_UNSUPPORTED, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_WEBVIEW_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_HTML_SCRIPT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker mEventType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker mTrackerType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_UNKNOWN_OR_UNSUPPORTED, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_WEBVIEW_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_HTML_SCRIPT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNKNOWN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_LOAD, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLIENT_FILL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAGE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CLICK, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_VIDEO_RENDER, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FALLBACK_URL, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PLAY, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q1, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q2, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q3, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_Q4, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_CREATIVE_VIEW, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_EXIT_FULLSCREEN, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_UNMUTE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_PAUSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_RESUME, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_ERROR, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_END_CARD_CLOSE, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_OMID, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_MOAT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_INIT, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADING, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_DOWNLOADED, com.inmobi.ads.modelsv2.NativeTracker.TrackerEventType.TRACKER_EVENT_TYPE_DOWNLOADER_ERROR}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeTracker.TrackerType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_UNKNOWN_OR_UNSUPPORTED, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_URL_WEBVIEW_PING, com.inmobi.ads.modelsv2.NativeTracker.TrackerType.TRACKER_TYPE_HTML_SCRIPT}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeWebViewAsset java.lang.String fromWebViewValueTypeString(java.lang.String)">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.URL, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_IFRAME, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeWebViewAsset java.lang.String getWebViewDataType()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.URL, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_IFRAME, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeWebViewAsset mWebViewDataType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.URL, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_IFRAME, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeWebViewAsset void setWebViewDataType(java.lang.String) 0">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.URL, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_IFRAME, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.UNKNOWN}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.URL, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_IFRAME, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.REF_HTML, com.inmobi.ads.modelsv2.NativeWebViewAsset.WebViewDataType.UNKNOWN}" />
+    </annotation>
+  </item>
+</root>
+

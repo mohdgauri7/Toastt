@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.inmobi.signals.LocationInfo java.lang.String getUserLocationConsentStatus()">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.signals.LocationInfo.LocationConsentStatus.AUTHORISED, com.inmobi.signals.LocationInfo.LocationConsentStatus.DENIED, com.inmobi.signals.LocationInfo.LocationConsentStatus.UNDETERMINED}" />
+    </annotation>
+  </item>
+  <item name="com.inmobi.signals.LocationInfo.LocationConsentStatus">
+    <annotation name="androidx.annotation.StringDef">
+      <val name="value" val="{com.inmobi.signals.LocationInfo.LocationConsentStatus.AUTHORISED, com.inmobi.signals.LocationInfo.LocationConsentStatus.DENIED, com.inmobi.signals.LocationInfo.LocationConsentStatus.UNDETERMINED}" />
+    </annotation>
+  </item>
+</root>
+
